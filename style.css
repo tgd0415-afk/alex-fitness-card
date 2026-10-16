@@ -1,0 +1,78 @@
+/* Alex's Fitness Business Card */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: center;
+  background: #111c2e;
+  border: 1px solid #263750;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px #0005;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 20px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #f2c14e;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.7;
+  color: #d0d9e6;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 22px;
+  color: #07111f;
+  background: #f2c14e;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background: #ffffff;
+}
+
+footer {
+  margin-top: 30px;
+  color: #9aa9bd;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+}
